@@ -65,9 +65,9 @@ BiocManager::install("GenomicRanges", version = "3.8")
 Here is a walkthrough of simulating data for a selection screen with sample data provided in `./CRSsim/Example_data`.
 
 Running a simulation will generate three .csv files:
-1. An **annotation file**, containing information about all the simulated guides (chromosome, start, end, label). The output file will be named `{output_name}_info.csv`.
-2. A **counts file**, containing the counts for each guide in each pool. The output file will be named `{output_name}_counts.csv`.
-3. An **enhancer file**, containing the locations of the simulated regulatory regions (e.g. enhancers). The output file will be named `{output_name}_enhancers.csv`.
+* An **annotation file**, containing information about all the simulated guides (chromosome, start, end, label). The output file will be named `{output_name}_info.csv`.
+* A **counts file**, containing the counts for each guide in each pool. The output file will be named `{output_name}_counts.csv`.
+* An **enhancer file**, containing the locations of the simulated regulatory regions (e.g. enhancers). The output file will be named `{output_name}_enhancers.csv`.
 
 Follow the steps below to simulate data for a selection screen. 
 
